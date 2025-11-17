@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tipos de tour's</title>
         <link href="./output.css" rel="stylesheet">
-        <link href="../src/css/style.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
     </head>
 
     <body class="font-serif text-[#222] bg-white leading-relaxed">
    <header>
         <div class="logo">
-          <img src="../src/files/logo.png" alt="Logo Faby Tours">
+          <img src="/files/logo.png" alt="Logo Faby Tours">
         </div>
 
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -37,7 +37,7 @@
         </nav>
     </header>
     <section class="hero">
-        <img src="../src/files/fondo.jpg" alt="Lancha en la playa" class="w-full h-40 object-cover">
+        <img src="/files/fondo.jpg" alt="Lancha en la playa" class="w-full h-40 object-cover">
     </section>
 
         <br><br>
@@ -48,7 +48,7 @@
                     
             <div class="card w-80 bg-white shadow-xl border border-[#0a1a44]/30">
                 <figure><img 
-                src="../src/files/tour1.jpg" 
+                src="/files/tour1.jpg" 
                 alt="Tour2"
                 class="h-48 w-full object-cover"
                 ></figure>
@@ -66,7 +66,7 @@
                     
             <div class="card w-80 bg-white shadow-xl border border-[#0a1a44]/30">
                 <figure><img 
-                src="../src/files/tour2.jpg" 
+                src="/files/tour2.jpg" 
                 alt="Tour2"
                 class="h-48 w-full object-cover"
                 ></figure>
@@ -84,7 +84,7 @@
             
             <div class="card w-80 bg-white shadow-xl border border-[#0a1a44]/30">
                 <figure><img 
-                src="../src/files/tour3.jpg" 
+                src="/files/tour3.jpg" 
                 alt="Tour3" class="h-48 w-full object-cover"
                 ></figure>
                 <div class="card-body text-left">

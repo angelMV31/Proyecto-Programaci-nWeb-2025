@@ -1,42 +1,14 @@
-<!DOCTYPE html>
-<html lang="es">
+
+<?php include __DIR__ . '/../src/views/layouts/header.php'; ?>
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registro</title>
         <link href="./output.css" rel="stylesheet">
-        <link href="../src/css/style.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
     </head>
 
-    <body>
-        <header>
-        <div class="logo">
-          <img src="../src/files/logo.png" alt="Logo Faby Tours">
-        </div>
-
-        <nav>
-        <ul class="nav-link">
-            <li><a href="index.html" class="activo">Inicio</a></li>
-            <li><a>Experiencias</a>
-            <ul class="sub-link">
-                <li><a href="tuors.html">Tuor's</a></li>
-                <li><a>Opiniones</a></li>
-                <li><a href="experience.html">Registro</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Contactos</a></li>
-        </ul>
-        <div class="buscar">
-            <input type="text" placeholder="Buscar...">
-        </div>
-     </nav>
-    </header>
-
-    <section class="hero">
-        <img src="../src/files/fondo.jpg" alt="Lancha en la playa">
-    </section>
-     <br><br>
     <main>
     <h1>Registro para vivir una experiencia</h1>
 
@@ -84,4 +56,5 @@
     </div>
     </main>
     </body>
-</html>
+
+<?php include __DIR__ . '/../src/views/layouts/footer.php'; ?>
