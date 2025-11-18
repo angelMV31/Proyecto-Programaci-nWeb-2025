@@ -1,15 +1,23 @@
+<?php  
+require_once __DIR__ . '/../src/config/config.php';
+require_once __DIR__ . '/../src/config/functions.php';
+?>
 
-<?php include __DIR__ . '/../src/views/layouts/header.php'; ?>
+<?php include __DIR__ . '/layouts/header.php'; ?>
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Registro</title>
-        <link href="./output.css" rel="stylesheet">
-        <link href="./css/style.css" rel="stylesheet">
+        <link href="/output.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
     </head>
 
     <main>
+    <section class="hero">
+        <img src="files/fondo.jpg" alt="Lancha en la playa">
+    </section>
+
     <h1>Registro para vivir una experiencia</h1>
 
      <br><br>
@@ -57,4 +65,4 @@
     </main>
     </body>
 
-<?php include __DIR__ . '/../src/views/layouts/footer.php'; ?>
+<?php include __DIR__ . '/layouts/footer.php'; ?>
